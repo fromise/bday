@@ -29,8 +29,6 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 180px;
-    height: 200px;
     padding: 1.5rem;
     margin-top: 25px;
     background: rgba(250, 250, 242, 0.7);
@@ -40,6 +38,8 @@ html {
     border-radius: 25px;
     box-shadow: 0 0 30px 5px white;
     flex-direction: column;
+    width: 500px;
+    text-wrap: wrap;
   }
   .card:hover {
     background: rgba(250, 250, 242, 0.9);
